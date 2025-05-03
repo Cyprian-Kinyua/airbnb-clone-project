@@ -24,3 +24,12 @@ This Airbnb clone project is a comprehensive, real-world application designed to
 - Database Administrator: Manages database design, indexing, and optimizations.
 - DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
 - QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
+
+## Technology Stack Overview
+- Django REST Framework: A web framework for building RESTful APIs.
+- PostgreSQL: A powerful, open-source relational database management system.
+- GraphQL: A query language for APIs and a runtime for fulfilling those queries with your data.
+- Celery: An open-source Python library used to run tasks asynchronously in the background.
+- Redis: An open-source, in-memory data structure used as a database, cache, and message broker.
+- Docker: A software platform that automates the deployment of applications within containers, offering a standardized and portable way to package and run applications in various environments.
+- CI/CD Pipelines: Automated series of steps that streamline the software development lifecycle from code creation to deployment.
