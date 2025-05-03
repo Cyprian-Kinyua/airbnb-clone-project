@@ -72,4 +72,14 @@ This Airbnb clone project is a comprehensive, real-world application designed to
    - amenity_id
    - amenity_name
    - description
-   
+
+## Feature Breakdown
+1. User Management: Register new users, log in, authenticate, and manage user profiles.
+Users can sign up as guests  or hosts, manage their personal information, and access role-specific functionalities.
+3. Property Management: Hosts can create, update, retrieve, and delete property listings. Each listing includes details such as title, description, and amenities, allowing hosts to showcase their properties effectively.
+4. Booking system: Guests can make, update, and manage bookings, including check-in and check-out. The system prevents double bookings, tracks reservation status, and calculates total cost based on stay duration and pricing.
+6. Review system: Allows guests to post and manage reviews for properties. This builds trust in the platform, provides valuable feedback to hosts, and helps future guests make informed decisions.
+7. Payment processing: Handle payment transactions related to bookings. Users can pay for bookings online at their convenience while hosts receive payouts for confirmed stays, ensuring a smooth financial workflow.
+8. Database optimizations:
+Indexing: Implement indexes for fast retrieval of frequently accessed data.
+Caching: Use caching strategies to reduce database load and improve performance.
