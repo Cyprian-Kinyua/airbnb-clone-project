@@ -2,7 +2,7 @@
 ## Project Overview
 This Airbnb clone project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It will provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments.
 
-**🚀Goals**
+**🚀🚀Goals**
 1. User Management: Implement a secure user registration, authentication, and profile management system.
 2. Property Management: Develop property listing creation, updates, and retrieval features.
 3. Booking System: Create a booking mechanism for users to reserve properties and manage booking details.
@@ -10,7 +10,7 @@ This Airbnb clone project is a comprehensive, real-world application designed to
 5. Review system: Allow users to leave reviews and ratings for properties.
 6. Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
-**🛠️Technology Stack**
+**🛠️🛠️Technology Stack**
 - Django REST Framework
 - PostgreSQL
 - GraphQL
@@ -19,7 +19,7 @@ This Airbnb clone project is a comprehensive, real-world application designed to
 - Docker
 - CI/CD Pipelines
 
-## Team Roles
+## 🧑‍💻🧑‍💻Team Roles
 - Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
 - Database Administrator: Manages database design, indexing, and optimizations.
 - DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
@@ -80,6 +80,28 @@ Users can sign up as guests  or hosts, manage their personal information, and ac
 4. Booking system: Guests can make, update, and manage bookings, including check-in and check-out. The system prevents double bookings, tracks reservation status, and calculates total cost based on stay duration and pricing.
 6. Review system: Allows guests to post and manage reviews for properties. This builds trust in the platform, provides valuable feedback to hosts, and helps future guests make informed decisions.
 7. Payment processing: Handle payment transactions related to bookings. Users can pay for bookings online at their convenience while hosts receive payouts for confirmed stays, ensuring a smooth financial workflow.
-8. Database optimizations:
+8. Notifications System: Users receive real-time alerts for booking confirmations, messages, reviews, or status changes. Notifications can be in-app, via email, or push-based, keeping users informed and engaged.
+9. Database optimizations:
 Indexing: Implement indexes for fast retrieval of frequently accessed data.
 Caching: Use caching strategies to reduce database load and improve performance.
+
+## API Security Overview
+**🔐🔐Security Measures**
+1. Authentication: Use secure methods like hashed passwords, email verification, and optional multi-factor authentication (MFA)
+This ensures only legitimate users access accounts, reducing risks of impersonation, account theft, and data breaches.
+2. Authorization: Implement role-based access control to ensure users only access features permitted for their role, e.g., guest vs host. This prevents unauthorized actions like guests accessing host tools to modify property attributes.
+3. Rate limiting and Throttling: Limit the number of API requests per IP per time interval. This helps prevent abuse, brute-force attacks, and denial-of-service(DOS) attacks.
+4. Input validation and Sanitization: Validate and sanitize all user inputs to protect against  SQL Injection and other injection attacks.
+5. Use HTTPS: Use SSL/TLS encryption to serve the entire site over HTTPS.
+6. Session Management and Token Security: Use session handling with expiration, refresh tokens, and secure cookie flags. This prevents session hijacking and ensures users remain authenticated safely across requests.
+7. Secure Payments Integration: Use trusted payment processors, e.g., Stripe, with HTTPS, Tokenization, and PCI compliance. This protects sensitive financial data, prevents fraud, and ensures legal and regulatory compliance in handling payments.
+
+## CI/CD Pipeline Overview
+**❓❓What are CI/CD Pipelines?**
+These are an automated series of steps that streamline the software development lifecycle, from code creation to deployment. They facilitate faster release cycles, improved code quality, reduced risk of errors, and enhanced collaboration.
+Continuous Integration: Frequent merging of code into a shared repository with automated tests to ensure correct integration without the introduction of new issues.
+Continuous Delivery/Deployment: Automatic release of integrated code into the production/staging environment.
+**🛠️🛠️CI/CD Tools**
+- GitHub Actions: automates builds, tests, and deployments using YAML workflows.
+- Jenkins: Open-source, highly customizable with plugins, supports complex workflows.
+- Docker: Allows packaging of an application along with all its dependencies, libraries, and environment settings into a portable container.
