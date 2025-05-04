@@ -25,7 +25,7 @@ This Airbnb clone project is a comprehensive, real-world application designed to
 - DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
 - QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
-## Technology Stack Overview
+## 🛠️⚙️Technology Stack Overview
 - Django REST Framework: A web framework for building RESTful APIs.
 - PostgreSQL: A powerful, open-source relational database management system.
 - GraphQL: A query language for APIs and a runtime for fulfilling those queries with your data.
@@ -73,7 +73,7 @@ This Airbnb clone project is a comprehensive, real-world application designed to
    - amenity_name
    - description
 
-## Feature Breakdown
+## ⚙️⚙️Feature Breakdown
 1. User Management: Register new users, log in, authenticate, and manage user profiles.
 Users can sign up as guests  or hosts, manage their personal information, and access role-specific functionalities.
 3. Property Management: Hosts can create, update, retrieve, and delete property listings. Each listing includes details such as title, description, and amenities, allowing hosts to showcase their properties effectively.
@@ -85,7 +85,7 @@ Users can sign up as guests  or hosts, manage their personal information, and ac
 Indexing: Implement indexes for fast retrieval of frequently accessed data.
 Caching: Use caching strategies to reduce database load and improve performance.
 
-## API Security Overview
+## 👮‍♂️API Security Overview
 **🔐🔐Security Measures**
 1. Authentication: Use secure methods like hashed passwords, email verification, and optional multi-factor authentication (MFA)
 This ensures only legitimate users access accounts, reducing risks of impersonation, account theft, and data breaches.
@@ -101,6 +101,7 @@ This ensures only legitimate users access accounts, reducing risks of impersonat
 These are an automated series of steps that streamline the software development lifecycle, from code creation to deployment. They facilitate faster release cycles, improved code quality, reduced risk of errors, and enhanced collaboration.
 Continuous Integration: Frequent merging of code into a shared repository with automated tests to ensure correct integration without the introduction of new issues.
 Continuous Delivery/Deployment: Automatic release of integrated code into the production/staging environment.
+
 **🛠️🛠️CI/CD Tools**
 - GitHub Actions: automates builds, tests, and deployments using YAML workflows.
 - Jenkins: Open-source, highly customizable with plugins, supports complex workflows.
